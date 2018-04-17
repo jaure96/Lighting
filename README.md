@@ -7,7 +7,6 @@ This state machine is designed with IAR Visual State 8 and compiled using Visual
 Tools needed
 -----------------------
 * Visual Studio 2017 (to open the .sln file and re-compile the proyect)
-* IAR Visual Sate 8 (in case you want to change the state machine)
 
 How to run
 -----------------------

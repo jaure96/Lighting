@@ -34,6 +34,9 @@
   <ItemGroup>
     <Text Include="src\coderGenerated\coder_adaptive\config.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{F046ADC7-845B-44B3-98AB-A6779665017C}</ProjectGuid>
