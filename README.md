@@ -1,7 +1,7 @@
 What is this?
 -------------
 This proyect is a simulation of a simple state machine in order to print the events and actions that are executed  
-by the state machine.
+by the state machine.  
 This state machine is designed with IAR Visual State 8 and compiled using Visual Studio 2017.
 
 Tools needed
