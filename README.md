@@ -14,7 +14,7 @@ How to run
 2. Open the Visual Studio proyect by clicking the **Lighting.sln** file and compile it.
 3. After that, you´ll be able to run the simulation by executing **Lighting\x64\Debug\Lighting.exe**.
 
-Authors
+Author
 ----------------------
 Xabier Jauregi Aguirre  
 [xabier.jauregi@alumni.mondragon.edu](https://accounts.google.com/ServiceLogin)  
