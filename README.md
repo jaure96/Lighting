@@ -16,7 +16,7 @@ How to run
 
 State machine Daigram
 -----------------------
-![picture](Design.PNG)
+![picture](./Design.PNG)
 
 Author
 ----------------------
