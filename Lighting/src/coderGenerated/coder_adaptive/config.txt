@@ -1,0 +1,223 @@
+Coder Options
+Configuration
+Variant  
+API type Adaptive 
+Readable code generation Yes 
+C++ code generation No 
+Generate for C-SPYLink No 
+Generate for RealLink No 
+C source file extension c 
+C++ source file extension cpp 
+Include excluded items No 
+Use additional RealLink extended keywords No 
+Enforce compatible RealLink extended keywords Yes 
+
+File output
+Output directory D:\TFG\IAR Visual State libreria ezagutzen\Lighting IAR Diseñua\coder\ 
+Result file vscoder.cre 
+Project header file Lighting.h 
+Project source file Lighting.c 
+
+Types style
+Type style VisualState 
+File to #include that will provide typedefs for the types specified manually.  
+Type to use for VS_BOOL  
+Type to use for VS_CHAR  
+Type to use for VS_UCHAR  
+Type to use for VS_SCHAR  
+Type to use for VS_UINT  
+Type to use for VS_INT  
+Type to use for VS_FLOAT  
+Type to use for VS_DOUBLE  
+Type to use for VS_VOIDPTR  
+Type to use for VS_UINT8  
+Type to use for VS_INT8  
+Type to use for VS_UINT16  
+Type to use for VS_INT16  
+Type to use for VS_UINT32  
+Type to use for VS_INT32  
+
+Code
+Optimize states and machines Yes 
+External variable initialization By definition 
+Internal variable initialization By definition 
+Functional expression handling Function pointer tables 
+Generate digital signature No 
+Generate time and version No 
+Use heap memory No 
+Translate comments Yes 
+Automatic entry function  
+Automatic exit function  
+Data width Optimized 
+Use event group table indexing No 
+Rule data format number Optimized 
+
+Style
+SEM variable types As typedefs 
+VS variable types As typedefs 
+VS_BOOL type int 
+
+Extended keywords
+System context keyword  
+External variable keyword  
+Core model logic keyword  
+Guard expression collection keyword  
+Action expression collection keyword  
+Run-time info keyword  
+RealLink protocol data keyword  
+RealLink data keyword  
+RealLink const data keyword  
+
+API functions
+Enable VSGetSignature Yes 
+
+C++
+Project name space  
+
+C-SPYLink
+Use DLIB shared breakpoint No 
+Use ARM specific semi-hosting shared breakpoint No 
+
+MISRA
+Maximum MISRA compliance Yes 
+
+Model characteristics
+Model elements
+Events 0 
+Action functions 0 
+External variables 0 
+Constants 0 
+
+Model components
+Systems 1 
+
+Generated statistics
+System LightingSystem
+Coder Options
+File output
+Use Project output path Yes 
+Output directory D:\TFG\IAR Visual State libreria ezagutzen\Lighting IAR Diseñua\coder\ 
+System source file LightingSystem.c 
+System header file LightingSystem.h 
+
+Code
+Rule data format number Optimized 
+Data width Optimized 
+Const system structure Yes 
+Const guard expression fpt Yes 
+Const action expression fpt Yes 
+Static model elements No 
+Merged guard expressions No 
+Merged action expressions No 
+Use guard type cast Yes 
+Use auto variables Yes 
+Omit contradiction tests No 
+Split readable No 
+
+Extended keywords
+External variable keyword  
+Internal variable keyword  
+Double buffer data keyword  
+Action function header file  
+Guard function extended keyword  
+
+API functions
+Use API prefix Yes 
+API prefix LightingSystem 
+Include SemExpl No 
+Include SemExplAbs No 
+Include SemForceState No 
+Include SemGetInputAll No 
+Include SemInquiry No 
+Include SemMachine Yes 
+Include SemName No 
+Include SemNameAbs No 
+Include SemNextStateChg No 
+Include SemSignalQueueInfo No 
+Include SemState Yes 
+Include SemStateAll No 
+Include VSElementExpl Yes 
+Include VSElementName Yes 
+Include VSInitAll Yes 
+Include VSGetCurrentStateTree No 
+Include VSGetMaxCurrentStateTree No 
+
+C++
+C++ class name $(SYSNAME) 
+Remove VSNOF* Macros Yes 
+C++ namespace  
+
+C-SPYLink
+Enable full instrumentation No 
+Use sampling buffer No 
+Use live sampling buffer No 
+Sampling buffer size 32 
+Target break points 0 
+Use recording buffer Yes 
+Recording buffer size 1024 
+
+Names
+Event name printing Names and explanations 
+State name printing Names 
+Action function printing Names 
+Event name format No conversion 
+State name format Do not print 
+State machine format Do not print 
+
+Model characteristics
+Model elements
+Events 4 
+Event groups 0 
+Action functions 3 
+Internal variables 0 
+External variables 0 
+Signals 0 
+Constants 0 
+
+Model components
+States 3 
+State machines 1 
+Transitions 5 
+Guard expressions 0 
+Assignments 0 
+
+Model parameters
+Instances 1 
+Signal queue size 0 
+
+Generated statistics
+Maximum number of rule elements
+Positive state conditions 1 
+Negative state conditions 0 
+Guard expressions 0 
+Action expressions 1 
+Next states 1 
+Signals 0 
+
+Core logic information
+Applied rule data format number 9 
+Rule data header word width 64 bit 
+Rule data width 32 bit 
+
+Size information
+Core logic size in bytes 0 
+Number of guard expressions 0 
+Number of action expressions 3 
+
+Summary information
+Maximum number of rule elements
+Positive state conditions 1 
+Negative state conditions 0 
+Guard expressions 0 
+Action expressions 1 
+Next states 1 
+Signals 0 
+
+Accumulated size information
+Core logic size in bytes 0 
+Number of guard expressions 0 
+Number of action expressions 3 
+
+Compilation
+Errors 0 
+Warnings 0 

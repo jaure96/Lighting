@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\coderGererated">
+      <UniqueIdentifier>{4bff1e68-59e0-48c8-af72-6eda683cc327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\userWrittenCode">
+      <UniqueIdentifier>{26cc79af-b271-45fe-a902-e06a0cd13f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\userWrittenCode\eventQueue">
+      <UniqueIdentifier>{6452a813-bdec-4d08-a517-77108d5119d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\coderGererated\coder_adaptive">
+      <UniqueIdentifier>{4ee395f0-1354-48b5-b40f-c94656c0e00d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\userWrittenCode\eventQueue\eventHandler.h">
+      <Filter>Archivos de origen\userWrittenCode\eventQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\userWrittenCode\eventQueue\simpleEventHandler.h">
+      <Filter>Archivos de origen\userWrittenCode\eventQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coderGenerated\coder_adaptive\Lighting.h">
+      <Filter>Archivos de origen\coderGererated\coder_adaptive</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coderGenerated\coder_adaptive\LightingSystem.h">
+      <Filter>Archivos de origen\coderGererated\coder_adaptive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\userWrittenCode\eventQueue\simpleEventHandler.c">
+      <Filter>Archivos de origen\userWrittenCode\eventQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="src\userWrittenCode\LightingActions.c">
+      <Filter>Archivos de origen\userWrittenCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\userWrittenCode\Main.c">
+      <Filter>Archivos de origen\userWrittenCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\coderGenerated\coder_adaptive\Lighting.c">
+      <Filter>Archivos de origen\coderGererated\coder_adaptive</Filter>
+    </ClCompile>
+    <ClCompile Include="src\coderGenerated\coder_adaptive\LightingSystem.c">
+      <Filter>Archivos de origen\coderGererated\coder_adaptive</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\coderGenerated\coder_adaptive\config.txt">
+      <Filter>Archivos de origen\coderGererated\coder_adaptive</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
